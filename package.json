@@ -1,0 +1,42 @@
+{
+  "name": "react-native-bre-ui",
+  "version": "1.0.1",
+  "description": "The missing React Native Bre UI by brennan ngo",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brennanngo1292000/react-native-bre-ui.git"
+  },
+  "keywords": [
+    "react",
+    "reactnative",
+    "react-native",
+    "react-native-ui-kit",
+    "react-native-kit"
+  ],
+  "author": "brennanngo",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-vector-icons": "*",
+    "prop-types": "*"
+  },
+  "devDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "16.13.1",
+    "react-native": "^0.61.4",
+    "react-native-vector-icons": "^6.7.0"
+  },
+  "dependencies": {
+    "@callstack/react-theme-provider": "^3.0.5",
+    "color": "^3.1.2"
+  },
+  "bugs": {
+    "url": "https://github.com/brennanngo1292000/react-native-bre-ui/issues"
+  },
+  "homepage": "https://github.com/brennanngo1292000/react-native-bre-ui#readme"
+}
