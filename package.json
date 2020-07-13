@@ -1,6 +1,6 @@
 {
   "name": "react-native-bre-ui",
-  "version": "1.0.1",
+  "version": "1.0.14",
   "description": "The missing React Native Bre UI by brennan ngo",
   "main": "src/index.js",
   "scripts": {
@@ -14,8 +14,8 @@
     "react",
     "reactnative",
     "react-native",
-    "react-native-ui-kit",
-    "react-native-kit"
+    "react-native-ui",
+    "react-native-bre-ui"
   ],
   "author": "brennanngo",
   "license": "ISC",
@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "@callstack/react-theme-provider": "^3.0.5",
+    "@react-native-community/segmented-control": "^2.1.0",
     "color": "^3.1.2"
   },
   "bugs": {
