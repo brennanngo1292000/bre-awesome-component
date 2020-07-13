@@ -4,27 +4,28 @@ import PropTypes from "prop-types";
 import { Theme } from "../../types/Theme";
 import { withTheme } from "../../core/theming";
 
-const Block = ({
-  row,
-  flex,
-  center,
-  middle,
-  top,
-  bottom,
-  right,
-  left,
-  space,
-  fluid,
-  height,
-  shadowColor,
-  width,
-  safe,
-  children,
-  style,
-  styles,
-  theme,
-  ...rest
-}) => {
+const Block = (props) => {
+  const {
+    row,
+    flex,
+    center,
+    middle,
+    top,
+    bottom,
+    right,
+    left,
+    space,
+    fluid,
+    height,
+    shadowColor,
+    width,
+    safe,
+    children,
+    style,
+    styles,
+    theme,
+    ...rest
+  } = props;
   const _getStyles = (theme) =>
     StyleSheet.create({
       block: {
@@ -133,7 +134,7 @@ Block.propTypes = {
   shadowColor: PropTypes.string,
   safe: PropTypes.bool,
   styles: PropTypes.any,
-  theme: PropTypes.shape(Theme)
+  theme: PropTypes.shape(Theme),
 };
 
 export default withTheme(Block);
