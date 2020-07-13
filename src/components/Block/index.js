@@ -22,7 +22,6 @@ const Block = (props) => {
     safe,
     children,
     style,
-    styles,
     theme,
     ...rest
   } = props;
@@ -105,15 +104,12 @@ Block.defaultProps = {
   bottom: false,
   right: false,
   left: false,
-  card: false,
-  shadow: false,
   space: null,
   fluid: false,
   height: null,
   width: null,
   shadowColor: null,
   safe: false,
-  styles: {},
 };
 
 Block.propTypes = {
@@ -124,16 +120,13 @@ Block.propTypes = {
   top: PropTypes.bool,
   bottom: PropTypes.bool,
   right: PropTypes.bool,
-  card: PropTypes.bool,
   left: PropTypes.bool,
-  shadow: PropTypes.bool,
   space: PropTypes.string,
   fluid: PropTypes.bool,
   height: PropTypes.number,
   width: PropTypes.number,
   shadowColor: PropTypes.string,
   safe: PropTypes.bool,
-  styles: PropTypes.any,
   theme: PropTypes.shape(Theme),
 };
 
